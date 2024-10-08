@@ -2,8 +2,6 @@
 
 This project features a responsive profile card created using HTML, CSS, and JavaScript. The card displays personal information, contact details, and social media links with an attractive tricolor gradient background.
 
-![screen shot](opera_aEgi9vL8ms.png)
-
 ## Features
 
 - Responsive design for various screen sizes
@@ -20,7 +18,7 @@ This project features a responsive profile card created using HTML, CSS, and Jav
 
 ## Preview
 
-![Profile Card Preview](screenshot.png) <!-- Replace with actual image path -->
+![screen shot](opera_aEgi9vL8ms.png)
 
 ## Getting Started
 
