@@ -37,6 +37,19 @@ p {
   width: 90%;
   max-width: 350px;
   perspective: 1000px;
+  animation: slideIn 0.5s ease-out; /* sliding animation upon initialization of the page*/
+}
+
+/*slidein keyframe*/
+@keyframes slideIn {
+  from {
+      transform: translateY(100%); /* Start from below the viewport */
+      opacity: 0; /* Start invisible */
+  }
+  to {
+      transform: translateY(0); /* End at original position */
+      opacity: 1; /* Fully visible */
+  }
 }
 
 .profile-card .avail {
@@ -111,7 +124,7 @@ p {
   padding: 10px 15px;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .toggle-info:hover {
